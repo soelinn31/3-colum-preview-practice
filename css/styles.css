@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+.row {
+    width: 50%;
+    margin: 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 5px 0px 30px;
+    margin: 0;
+}
+
+.col-lg-4 {
+    padding: 0;
+}
+
+.card-header {
+    font-family: 'Big Shoulders Display', cursive;
+    border-bottom: 0 none;
+    background-color: transparent;
+}
+
+.card-img {
+    padding: 0 0 25px 15px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Sedans */
+
+.sedans-button {
+    color: hsl(31, 77%, 52%);
+    border-radius: 100px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.card-1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+}
+
+
+
+/* SUVS */
+
+.suvs-button {
+    color: hsl(184, 100%, 22%);
+    border-radius: 100px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+/* LUXURY */
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+    border-radius: 100px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.card-3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+}
+
+@media (max-width: 1595px) and (min-width: 900px) {
+    .row {
+        width: 80%;
+
+    }
+}
+
+@media (max-width: 700px) and (min-width: 0) {
+    .row {
+        width: 90%;
+        height: 100%;
+    }
+}
